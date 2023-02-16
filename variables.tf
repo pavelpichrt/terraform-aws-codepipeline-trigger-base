@@ -1,7 +1,7 @@
 variable "codepipeline_name" {}
 
 variable "handler_implementation_dir" {
-  description = "Location of directory that contains lambda function implementation. Usually something like '${path.module}/handler'"
+  description = "Location of directory that contains lambda function implementation. Usually something like '{path.module}/handler'"
 }
 
 variable "type" {
